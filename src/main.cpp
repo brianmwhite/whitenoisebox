@@ -116,10 +116,10 @@ void loop()
   // Alternately, we can just play an entire file at once
   // This doesn't happen in the background, instead, the entire
   // file is played and the program will continue when it's done!
-  // musicPlayer.playFullFile("beach.mp3");
+  // musicPlayer.playFullFile("loop.mp3");
 
   // Start playing a file, then we can do stuff while waiting for it to finish
-  const char *filename = "/12hr.mp3";
+  const char *filename = "/loop.mp3";
   Serial.println("about to open file");
   Serial.println(filename);
 
